@@ -8,7 +8,7 @@
 import Foundation
 
 // Defini a estrutura principal da minha tarefa.
-struct Tarefa: Codable, Identifiable {
+struct Tarefa: Codable, Identifiable, Equatable {
     let id: UUID
     var nome: String
     var concluida: Bool
